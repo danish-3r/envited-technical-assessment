@@ -19,10 +19,10 @@ export default function Event() {
 
       <main className=' bg-secondary-100'>
         <section className='h-screen lg:static'>
-          <div className='md:text-center pt-20 pr-20 lg:text-right m-auto'>
+          <div className='md:text-center md:pt-20 lg:pt-20 lg:pr-20 lg:text-right'>
             <Image src={Cake} height={500} width={500}/>
           </div>
-          <div className='lg:absolute top-20 left-40'>
+          <div className=' md:pt-20 md:pl-20 lg:absolute top-20 left-40'>
             <div className='text-left pt-1 px-6'>
                 <h1 className='text-3xl font-bold text-primary-400'>Birthday Bash</h1>
                 <p className='text-md text-text-500 mt-2'>

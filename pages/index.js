@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import LandingPage from '../public/Landing page image.svg'
 
@@ -31,7 +32,9 @@ export default function Home() {
             <Image src={LandingPage} height={500} width={500}/>
           </div>
           <div className='text-center py-5 lg:absolute lg:right-24 lg:top-[20rem]'>
-            <a className='bg-gradient-to-r from-primary-200 to-primary-100 text-white text-lg font-semibold md:px-12 px-4 py-4 rounded-xl' href='#'>🎉 Create my event</a>
+            <Link href='/create'>
+              <a className='bg-gradient-to-r from-primary-200 to-primary-100 text-white text-lg font-semibold md:px-12 px-4 py-4 rounded-xl' href='#'>🎉 Create my event</a>
+            </Link>
           </div>
         </section>
       </main>
